@@ -1,0 +1,27 @@
+.button{
+    width: 100px;
+    height: 100px;
+    display: inline;
+    margin-left: 4px;
+    margin-bottom: 2px;
+}
+
+.calculator{
+    width: 420px;
+    height: 630px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    display: block;
+}
+
+#display{
+        width:400px;
+        height:100px;
+        border:1px;
+        border-color:black;
+        border-style:solid;
+        display:block;
+        background-color:#F7F7F7;
+        margin:10px;
+}
