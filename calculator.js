@@ -5,7 +5,7 @@ var specialButtons = {
     clear: "Clear"
 }
 
-var buttonList = ["(", ")", "^", specialButtons.backspace, "1", "2", "3", specialButtons.clear, "4", "5", "6", "-", "7", "8", "9", "*", ".", "0", "=", "+"];
+var buttonList = ["^", specialButtons.clear, specialButtons.backspace,"%", "1", "2", "3","/", "4", "5", "6", "-", "7", "8", "9", "*", ".", "0", "=", "+"];
 
 function create(tagName, props, eventprops, event) {
     var element = document.createElement(tagName);
