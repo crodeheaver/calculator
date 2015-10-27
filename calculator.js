@@ -32,7 +32,7 @@ calculator.appendChild(create('div', {
 buttonList.forEach(function(button) {
     var value = button.valueOf();
     calculator.appendChild(create('button', {
-        id: "button" + String.charCodeAt(value),
+        id: "button" + value.charCodeAt(0),
         className: 'button',
         textContent: value
     }, {
